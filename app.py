@@ -9,7 +9,11 @@ from datetime import datetime
 
 # ─── Page Config ───────────────────────────────────────────────────────────────
 st.set_page_config(
+<<<<<<< HEAD
     page_title="FAKEBURSTER BY 23CS1042 – Fake News Detector",
+=======
+    page_title="FakeGuard – Fake News Detector",
+>>>>>>> 16c40dada658cb8014f7ff8210c9b22085f6e9ff
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -235,7 +239,11 @@ def page_login():
         st.markdown("""
         <div style='text-align:center; padding: 40px 0 10px'>
             <div style='font-size:3.5rem'>🛡️</div>
+<<<<<<< HEAD
             <h1 style='font-size:2rem; margin:0'>FAKEBURSTER BY 23CS1042</h1>
+=======
+            <h1 style='font-size:2rem; margin:0'>FakeGuard</h1>
+>>>>>>> 16c40dada658cb8014f7ff8210c9b22085f6e9ff
             <p style='color:#94a3b8; margin-top:4px'>AI-Powered Fake News Detector</p>
         </div>
         """, unsafe_allow_html=True)
@@ -287,7 +295,11 @@ def render_sidebar():
         st.markdown(f"""
         <div style='text-align:center; padding:20px 0 10px'>
             <div style='font-size:2.5rem'>🛡️</div>
+<<<<<<< HEAD
             <div style='font-size:1.1rem; font-weight:700; color:#7c83fd'>FAKEBURSTER BY 23CS1042</div>
+=======
+            <div style='font-size:1.1rem; font-weight:700; color:#7c83fd'>FakeGuard</div>
+>>>>>>> 16c40dada658cb8014f7ff8210c9b22085f6e9ff
             <div style='font-size:.8rem; color:#94a3b8; margin-top:4px'>
                 👤 {st.session_state.username}
                 {"&nbsp;&nbsp;<span style='background:#7c83fd;color:#fff;padding:2px 8px;border-radius:10px;font-size:.7rem'>ADMIN</span>" if st.session_state.role=="admin" else ""}
